@@ -1,0 +1,100 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://studentofmnsh-prog.github.io/Jmqpal/index.html
+Subject: CSS Transform - Scale
+Date: Mon, 19 Oct 2026 22:29:45 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--qLdxWHSMhws2IMPoVQ2YSHOQl5QoPyQduGQGWVOtiw----"
+
+
+------MultipartBoundary--qLdxWHSMhws2IMPoVQ2YSHOQl5QoPyQduGQGWVOtiw----
+Content-Type: text/html
+Content-ID: <frame-5B7966B68BCDA8880B4A8A88B36A86F5@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://studentofmnsh-prog.github.io/Jmqpal/index.html
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform - Scale</title>
+    <link rel="stylesheet" href="https://studentofmnsh-prog.github.io/Jmqpal/style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>CSS Transform/Transition</h1>
+    <nav class="nav">
+        <a href="https://studentofmnsh-prog.github.io/Jmqpal/index.html">Rotate</a>
+        <a href="https://studentofmnsh-prog.github.io/Jmqpal/translate.html">Translate</a>
+        <a href="https://studentofmnsh-prog.github.io/Jmqpal/scale.html">Scale</a>
+        <a href="https://studentofmnsh-prog.github.io/Jmqpal/skew.html">Skew</a>
+    </nav>
+</header>
+
+<h2 class="title">CSS TRANSFORM: Scale</h2>
+
+<main class="demo">
+    <div class="box">Scale Before</div>
+    <div id="scaleBox" class="box scale-box">Scale After</div>
+</main>
+
+<div class="controls">
+    <button>Rotate</button>
+    <button>Translate</button>
+    <button>Skew</button>
+</div>
+
+
+</body></html>
+------MultipartBoundary--qLdxWHSMhws2IMPoVQ2YSHOQl5QoPyQduGQGWVOtiw----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://studentofmnsh-prog.github.io/Jmqpal/style.css
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; font-family: Arial, Helvetica, sans-serif; background: lightpink; color: black; }
+
+.header { margin: 0px 20px; background: pink; color: white; border-radius: 0px 0px 16px 16px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px; }
+
+.header h1 { margin: 0px; padding: 28px 10px 20px; text-align: center; font-size: 36px; line-height: 1.15; }
+
+.nav { background: pink; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; padding: 12px; }
+
+.nav a { text-decoration: none; color: white; background: hotpink; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 8px; padding: 8px 16px; font-size: 15px; transition: background 0.2s; }
+
+.nav a:hover { background: white; }
+
+.title { text-align: center; font-size: 24px; margin: 28px 0px; color: red; }
+
+.demo { margin: 0px 15px; min-height: 420px; border: 2px dashed rgb(148, 163, 184); border-radius: 12px; padding: 30px; display: flex; justify-content: space-around; align-items: center; gap: 30px; background: pink; }
+
+.box { width: 180px; height: 170px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 16px; color: white; display: flex; justify-content: center; align-items: center; text-align: center; font-size: 22px; font-weight: 600; cursor: pointer; box-shadow: rgba(59, 130, 246, 0.3) 0px 4px 12px; transition: transform 0.5s, box-shadow 0.3s; }
+
+.box:hover { box-shadow: rgba(59, 130, 246, 0.4) 0px 8px 20px; }
+
+.rotate-box.rotated { transform: rotate(25deg); }
+
+.translate-box.moved { transform: translateX(45px); }
+
+.scale-box.scaled { transform: scale(1); }
+
+.skew-box.skewed { transform: skewX(30deg); }
+
+.controls { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 15px; margin: 40px 0px; }
+
+button { border-width: medium; border-style: none; border-color: currentcolor; border-image: none; background: hotpink; color: white; border-radius: 8px; padding: 12px 20px; font-size: 15px; font-weight: 600; cursor: pointer; box-shadow: rgba(59, 130, 246, 0.3) 0px 2px 8px; transition: background 0.2s; }
+
+button:hover { background: rgb(104, 103, 103); }
+
+@media (max-width: 650px) {
+  .header h1 { font-size: 30px; }
+  .nav a { font-size: 14px; padding: 7px 12px; }
+  .title { font-size: 30px; }
+  .demo { min-height: 440px; flex-direction: column; padding: 20px; }
+  .box { width: 150px; height: 200px; font-size: 15px; }
+}
+------MultipartBoundary--qLdxWHSMhws2IMPoVQ2YSHOQl5QoPyQduGQGWVOtiw------

@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h2>PORTFOLIO <span>ITE</span></h2>
+    <button id="menuBtn">☰ Menu</button>
+    <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <button id="themeBtn">🌙 Dark Mode</button>
+    </nav>
+</header>
+
+<main class="section">
+    <h1>About <span>Me</span></h1>
+    <img class="about-img" src="images/profile.jpg"
+         alt="My profile picture">
+
+    <div class="card">
+        <h2>Personal Information</h2>
+        <p><b>Name:</b> JOHNMARK L. CALAMOHOY</p>
+        <p><b>Course:</b> Bachelor of Science in Information Technology</p>
+        <p><b>School:</b>Bestlink College Of The Philippines</p>
+        <p><b>Location:</b> Philippines</p>
+    </div>
+
+    <div class="card">
+        <h2>Education</h2>
+        <p>I am an BSIT student learning programming,
+           web development, and computer technologies and improve my coding.</p>
+    </div>
+
+    <div class="card">
+        <h2>My Interests</h2>
+        <ul>
+            <li>Web design and development</li>
+            <li>Programming and coding</li>
+            <li>Learning new technologies</li>
+        </ul>
+        <button onclick="toggleInfo()">Read More</button>
+        <p id="moreInfo" hidden>
+            My goal is to improve my programming skills
+            and become a professional in the IT industry.
+        </p>
+    </div>
+</main>
+
+<footer>
+    <p>© <span class="year"></span> [Your Name]. All rights reserved.</p>
+    <button onclick="backToTop()">↑ Back to Top</button>
+</footer>
+</body>
+</html>
